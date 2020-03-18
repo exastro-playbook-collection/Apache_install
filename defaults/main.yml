@@ -1,0 +1,5 @@
+###  vars file for ansible-apache
+
+## OS and version
+
+apache_OS_Version: RedHat7
