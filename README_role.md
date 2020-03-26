@@ -5,18 +5,17 @@
 本Ansible RoleはWebサーバソフトウェアである"Apache HTTP Server"のインストールを行います。
 対象バージョンは以下のバージョンです。
 
-- Apache2.2 (RHEL6)
 - Apache2.4 (RHEL7)
 
 ## Supports
 
 - 管理マシン(Ansibleサーバ)
   * Linux系OS（RHEL/CentOS）
-  * Ansible バージョン 2.0 以上
-  * Python バージョン 2.6 または2.7
+  * Ansible バージョン 2.0 以上 (動作確認済みバージョン：2.2、2.9)
+  * Python バージョン 2.x、3.x  (動作確認済みバージョン：2.6、2.7、3.6)
 
 - 管理対象マシン(構築対象マシン)
-  * RHEL6、RHEL7
+  * RHEL7
 
 ## Requirements
 
